@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(natura.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.guzik{
+    min-width: 20%;
+    z-index: 2;
+    min-height: 45px;
+    max-height: 45px;
+    top: 50%;
+    left: 80%;
+    margin-right: -40%;
+    transform: translate(100%, -50%);
+    background-color: green;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    
+        }
+.guzik:hover{
+    background-color: #00aa41;
+    color: white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+body {
+		   font-family: 'Open Sans';
+	}
+
+	* {
+		   box-sizing: border-box;
+	}
+
+	.chContainer {
+		   width: 100%;
+		   min-height: 70vh;
+           max-height: 70vh;
+           margin: auto;
+		   border: 3px solid #eee;
+           position: absolute;
+           top:50%;
+           left:50%;
+           margin-right:-50%;
+           transform:translate(-50%,-50%);
+        background-color: rgba(255,255,255,.94);
+	}
+
+	.chContainer > .chHeader {
+		   width: 100%;
+		   background: #fff;
+		   padding: 15px;
+
+		   border-bottom: 1px solid #ddd;
+	}
+
+	.chContainer > .chHeader h3 {
+		   font-weight: 400;
+		   color: #666;
+	}
+
+	.chaContainer > .chMessages {
+		   height: 470px;
+		   border-bottom: 1px solid #ddd;
+		   overflow-y: scroll;
+	}
+
+	.chContainer > .chBottom form input[type="text"] {
+		   width: 100%;
+		   padding: 8px;
+		   padding-left: 12px;
+		   border: 1px solid #ddd;
+		   border-radius: 5px;
+		   margin: 5px;
+		   height: 30px;
+	}
+
+	.chMessages li:nth-child(2n) {
+		   background: #eeeeee;
+	}
+
+	.msg {
+		   list-style: none;
+		   border-bottom: 1px solid #ddd;
+		   padding: 5px;
+		   color: #222222;
+	}
+.chBottom{
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+}
+#text{
+   min-width: 660px;
+    max-width: 660px; 
+    min-height: 45px;
+    max-height: 45px;
+    position: absolute;
+    top: -25px;
+}
+.przycisk{
+    color: white;
+
+    border: 0px;
+    min-height: 45px;
+    max-height: 45px;
+    display: inline-block;
+    top: 50%;
+    left: 8%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.przycisk:hover{
+    color: white;
+}
+.przycisk:hover{
+        background-color: #212529;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.przycisk > a {
+    color: white;
+    text-decoration: none;
+}
+.profil{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+
+}
+.mess_cont
+{
+    min-height: 47vh;
+    max-height: 47vh;
+
+}

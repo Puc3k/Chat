@@ -1,0 +1,2 @@
+e-mail: First_user@testing.pl
+password: 12345
